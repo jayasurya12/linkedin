@@ -4,12 +4,12 @@ import 'firebase/compat/auth'
 import 'firebase/compat/storage'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDbQ5W6VT8yTS7lOcvNerYMKy5pSIlBbBM",
-    authDomain: "linkedin-30547.firebaseapp.com",
-    projectId: "linkedin-30547",
-    storageBucket: "linkedin-30547.appspot.com",
-    messagingSenderId: "896372000036",
-    appId: "1:896372000036:web:869aee3b3f99e1456a1fb1"
+    apiKey: "firebase api key",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: ""
   }
 
   const firebaseApp=firebase.initializeApp(firebaseConfig)
