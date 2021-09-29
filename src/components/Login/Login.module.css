@@ -1,0 +1,446 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerAuth{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.headerAuth>p{
+    padding: 0 12px;
+}
+.headerAuth>button{
+    margin-right: 10px;
+}
+.signin{
+    width: 100px;
+    color: #0C64C5 !important;
+    font-weight: 600;
+    border-radius: 25px !important;
+    border: 1px solid #0C64C5 !important;
+}
+.signin:hover{
+    transition: 0.5s !important;
+    background-color: whitesmoke !important;
+    color: #0C64C5 !important;
+}
+.linkedIn{
+    height: 100px;
+}
+/*//////////////////////////////////////////////////////////////////////*/
+.wel{
+    color: #8f5849;
+    width: 50%;
+    font-size: 3.5rem;
+}
+.headImage2{
+    display: none;
+}
+.signin_with_logoSvg{
+    display: flex;
+}
+.login{
+    margin-top:10%;
+    width: 100%;
+}
+.input{
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 15px;
+    overflow: hidden;
+}
+.loginSignin{
+    width: 80% !important;
+    height: 50px;
+    border-radius: 25px !important;
+    background-color:#0C64C5 !important;
+    margin-top: 10px !important;
+    color: #fff !important;
+}
+.loginSignin:hover{
+    transition: .7s;
+    transform: scale(1.02);
+    border: 1.5px solid #0C64C5 !important;
+    background-color: rgb(243, 242, 237) !important;
+    color: #0C64C5 !important;
+}
+.headImage1{
+    width: 60%;
+    margin-top: -100px;
+    height: 80vh;
+}
+/*///////////////////////////////////////////*/
+.search{
+    background-color: #ececf1;
+}
+.search2{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-left: 2.5%;
+}
+.title{
+    letter-spacing: 1.5px;
+    font-size: xx-large;
+    width: 30%;
+    margin:auto;
+    word-spacing: 2px;
+    padding: 10px;
+    color: rgba(36, 33, 33, 0.74);
+}
+.jobBtn{
+    flex: 1;
+    text-align: center;
+    width: 40%;
+}
+.jobBtn>p{
+    padding: 10px;
+    font-size: large;
+    flex: 0.5;
+}
+.jobBtn>button{
+    margin: 5px 10px;
+    font-size: large;
+    color: rgba(26, 24, 24, 0.836);
+    border-radius: 25px !important;
+    background-color: #dadada !important;
+    padding:5px 20px !important;
+}
+.jobBtn>button:hover{
+    transition: .5s;
+    text-decoration: underline;
+    transform: scale(1.02);
+}
+/*///////////////////*/
+.postJob{
+    height: 200px;
+    background-color: rgb(248, 239, 239);
+}
+.post{
+    display: flex;
+    justify-content: space-evenly;
+}
+.post>p{
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: xx-large;
+    color: rgba(178, 64, 32, 1);
+    font-weight: 500;
+    letter-spacing: 1.5;
+    word-spacing: 2;
+    width:30%;
+}
+.post>button{
+    margin-top: 3%;
+    height: 50px;
+    padding: 10px !important;
+    width: 200px !important;
+    border-radius: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.548);
+    font-size: large;
+    font-weight: 600;
+    color: rgba(37, 36, 36, 0.712);
+}
+/*/////////////////////////////////////////////////////////////////////*/
+.connectContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.connect1>p{
+    margin-top: 20px;
+    width: 60%;
+    font-size: xx-large;
+    color: rgba(32, 30, 30, 0.774);
+}
+.connect1>button{
+    margin-top: 10px;
+    padding:10px 10px;
+    border-radius: 25px;
+    border: 1px solid rgba(43, 41, 41, 0.801);
+}
+.connect2>p{
+    font-size: xx-large;
+    margin-top: 10px;
+    width: 70%;
+    font-size: xx-large;
+    color: rgba(32, 30, 30, 0.774);
+}
+.connect2>select{
+    margin-top: 10px;
+    font-size: large;
+    color: rgba(31, 29, 29, 0.781);
+    width: 60%;
+    padding: 10px;
+    overflow: hidden;
+    border: 1px solid rgba(24, 23, 23, 0.466);
+    outline: none;
+    border-radius: 3px;
+}
+/*/////////////////////////////////////////////*/
+.last{
+    background:url('https://static-exp1.licdn.com/sc/h/2vt8plqbv2l2pi6kxm89bqs59') repeat-x;
+    width: 98.7vw;
+    height: 400px;     
+}
+.last>h2{
+    font-size: 3rem;
+    font-weight: normal;
+    color: rgba(34, 32, 32, 0.74);
+    width: 55%;
+    margin: 20px 10px 0 40px;
+    line-height: 60px;
+    -ms-word-break: break-all;
+}
+.last>button{
+   margin: 20px 0 0 24px !important;
+   background-color: #0C64C5 !important;
+   border-radius: 25px !important;
+   padding: 13px !important;
+   color: #fff !important;
+}
+/*///////////////////////*/
+.general{
+    padding: 20px 0 22px 0;
+    background-color: #dadada;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.linkedIcon{
+    align-self: flex-start;
+    flex: 0.5;
+    width: 100px;
+}
+.linkedIcon >img{
+    width: 50%;
+}
+.generalRow{
+    color: rgba(22, 21, 21, 0.692);
+    flex: 4;
+    display: flex;
+    justify-content: space-evenly;
+}
+.general1>a{
+    margin-top: 10px;
+    padding: 10px auto;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.767);
+}
+.general1>a:hover{
+    transition: .4s;
+    text-decoration: underline;
+}
+footer{
+    background-color: #f0ecec;
+    margin-bottom: 10px;
+}
+footer>div>ul{
+    margin: 10px 10px;
+}
+footer>div>img{
+    width: 7vw;
+}
+footer>div>div>span{
+    font-size: small;
+    font-weight: 600;
+}
+footer>div>{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer>div>div>a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.575);
+    font-weight: 500;
+    padding: 10px;
+}
+@media screen and (max-width:1480px) {
+    .headImage1{
+        height: auto;
+    }
+}
+@media screen and (max-width:800px) {
+    
+    .connectContainer{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items:center;
+    }
+    .last>h2{
+        width: 90%;
+        font-size: 2.5rem;
+    }
+    .wel{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:680px) {
+    
+    .post>p{
+        font-size: x-large;
+    }
+    .headImage1{
+        display: none;
+    }
+    .headImage2{
+        display: block;
+    }
+}
+@media screen and (max-width:600px){
+    .wel{
+        font-size: 2rem;
+        width: 100%;
+    }
+    .signin_with_logoSvg{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    .login{
+        margin-left: 20px;
+    }
+    .signin_with_logoSvg>img{
+        margin-top: 10px;
+        width: 80%;
+    }
+    .title{
+        width: 90%;
+        margin-left: 10%;
+    }
+    .search2{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+    }
+    .jobBtn{
+        width: 90%;
+    }
+    .post{
+        flex: 2;
+    }
+    .post>button{
+        width:  150px !important;
+    }
+    .connect1,.connect2{
+        width: 400px;
+        margin-left: 20px;
+    }
+    .connect1>p,.connect2>p{
+        width: 90%;
+        margin-left: 5%;
+        font-size: x-large;
+    }
+    
+    .last{
+        height: 250px;
+    }
+    .last>h2{
+        position: relative;
+        top: 0;
+        font-size: 2rem;
+        line-height: 1.5;
+        margin: auto;
+    }
+    .last>button{
+        font-size: small;
+        width: normal;
+    }
+    .linkedIcon>img{
+        width: 100%;
+    }
+    .general1{
+        font-size: smaller;
+    }
+}
+@media screen and (max-width:518px){
+    .post{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 15%;
+    }
+    .post>p{
+        font-size: large;
+        width: 80%;
+    }
+    .last>h2{
+        font-size: large;
+    }
+    .last>button{
+        padding: auto !important;
+    }
+}
+@media screen and (max-width:428px) {
+    .headerAuth{
+        display: flex;
+        flex-direction: column;
+    }
+    .wel{
+        font-size: large;
+    }
+}
+@media screen and (max-width:380px) {
+    .jobBtn{
+        width: 100%;
+    }
+    .jobBtn>button{
+        font-size: small !important;
+    }
+    .headerAuth>button{
+        font-size: small !important;
+    }
+    .last{
+        background: none;
+        background-color: #f0ecec;
+        text-align: center;
+    }
+    .last>h2{
+        font-size: large;
+        margin-top: 10px;
+    }
+    .generalRow{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .general1{
+        margin-top: 10px;
+    }
+}
+/* @media screen and (max-width:380px) {
+    .img{
+        height: 110px;
+    } 
+    .signin{
+        width: 100px !important;
+        font-weight: normal;
+    }
+    .list>li{
+        font-weight: normal;
+    }
+}
+@media screen and (max-width:600px) {
+    .img{
+        height:160px;
+    }
+    .signin{
+        width: 150px !important;
+    }
+    .list{
+        font-weight: normal;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+} */

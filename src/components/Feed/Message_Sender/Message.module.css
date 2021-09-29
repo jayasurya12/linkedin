@@ -1,0 +1,171 @@
+.submit{
+    display: none;
+}
+.messageContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    width:620px;
+    height: 110px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.messageContainer1>div{
+    /* background-color: white; */
+    width: 55px;
+    height: 55px;
+}
+.messageContainer1{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.messageContainer1>input{
+    width: 85%;
+    height: 48px;
+    border: 1px solid rgba(0, 0, 0, 0.452);
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    font-weight: 600;
+}
+.uploadField{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: white; */
+}
+.uploadField>div{
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:3px 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.uploadField>div>p,label>p{
+    display: flex;
+    align-items: center;
+    justify-content: c;
+    text-align: center;
+    margin-left: 5px;
+    color: rgba(0, 0, 0, 0.712);
+    font-weight: 600;
+    font-size: 14px;
+}
+.uploadField>div>svg{
+    font-size: 30px;
+    /* background-color: white; */
+}
+.uploadField>div:hover{
+    background-color: rgba(211, 211, 211, 0.685);
+}
+.imageUplode{
+    display: none;
+}
+.progress{
+    padding: 5px;
+}
+label{
+    display: flex;
+}
+
+@media screen and (max-width:1080px){
+    .messageContainer{
+        width: 560px;
+        height: 100px;
+    }
+    .messageContainer1>div{
+        width: 45px;
+        height: 50px;
+    }
+}
+@media screen and (max-width:640px) {
+    .messageContainer{
+        width:500px;
+        height: 100px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    .messageContainer1>div{
+        width: 45px;
+        height: 45px;
+    }
+    .messageContainer1>input{
+        width: 80%;
+        height: 40px;
+        font-weight: 500;
+    }
+    .uploadField>div>svg{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:515px) {
+    .messageContainer{
+        width:460px;
+        height: 100px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    .messageContainer1>div{
+        width: 42px;
+        height: 42px;
+    }
+    .messageContainer1>input{
+        width: 70%;
+        height: 36px;
+        font-weight: 500;
+    }
+    .uploadField>div>svg{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:480px) {
+    .messageContainer{
+        width:360px;
+        height: 80px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    .messageContainer1>div{
+        width: 38px;
+        height: 38px;
+    }
+    .messageContainer1>input{
+        width: 80%;
+        height: 30px;
+        font-weight: 500;
+    }
+    .uploadField>div>svg{
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .messageContainer{
+        width:320px;
+        height: 70px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    .messageContainer1>div{
+        width: 34px;
+        height: 34px;
+    }
+    .messageContainer1>input{
+        width: 75%;
+        height: 28px;
+        font-weight: 500;
+    }
+    .uploadField>div>svg{
+        font-size: 20px;
+    }
+    .uploadField>div>p,.uploadField>div>label>p{
+        font-size: 12px;
+    }
+}

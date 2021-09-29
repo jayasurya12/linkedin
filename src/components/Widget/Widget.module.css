@@ -1,0 +1,110 @@
+.widgetContainer{
+    margin: 10px 0 0 15px;
+}
+.linkednews{
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin-left: 15px;
+    padding: 10px;
+    box-shadow: 1px 1.5px .8px  rgba(48, 47, 47, 0.219);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.781);
+    font-size: large;
+}
+.linkednews>ul{
+    margin: 15px 0 0 20px;
+    font-size: 15px;
+}
+li{
+    margin-top: 10px;
+    font-weight: 600;
+    color: rgba(27, 26, 26, 0.781);
+}
+
+.linkednews>ul>p,.todayTopics>ol>p{
+    font-size: small;
+    color: rgba(0, 0, 0, 0.822);
+}
+.showmore{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgba(37, 36, 36, 0.719);
+    padding-top: 10px;
+    width: 50%;
+}
+.showmore>svg{
+    width: 20%;
+}
+/*//////////////////--------------card-2---------------------//////////////////*/
+.todayTopics{
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    height:auto;
+    margin: 15px;
+    padding: 10px;
+    box-shadow: 1px 1.5px .8px  rgba(48, 47, 47, 0.219);
+}
+.todayTopics>ol{
+    margin: 10px 0 0 15px;
+    font-size: 15px;
+}
+.show{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgba(37, 36, 36, 0.719);
+    padding: 10px;
+}
+/*/////-------------footer--------------////////////////*/
+.widgetContainer>div{
+    position: sticky;
+    top: 60px;
+}
+.footer{
+    font-size: 13px;
+    color: rgba(37, 36, 36, 0.795);
+}
+.second>div,.third>div{
+    display: flex;
+    align-items: center;
+}
+.first,.second,.third,.four{
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*////-----------copyrights-------/////////////*/
+.copyRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.copyRight>svg{
+    font-size: 20px;
+    color: #0A66C2;
+}
+.copyRight>h6{
+    font-size: 14px;
+    color: #0A66C2;
+}
+.copyRight>p{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.801);
+    font-weight: 400;
+}
+@media screen and (max-width:900px) {
+    .linkednews,.todayTopics{
+        display: none;
+    }
+}

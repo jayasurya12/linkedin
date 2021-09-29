@@ -1,0 +1,19 @@
+.sideCenterAcent{
+    display: flex;
+    justify-content: center;
+}
+
+.home{
+    background-color: #F3F2EF;
+}
+.res{
+    display: flex;
+}
+@media screen and (max-width:900px) {
+    .res{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}

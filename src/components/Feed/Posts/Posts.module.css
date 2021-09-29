@@ -1,0 +1,213 @@
+.postContainer{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(19, 18, 18, 0.219);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.header>section{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 2px;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(27, 26, 26, 0.863);
+}
+.header>section>p:hover{
+    text-decoration: underline;
+}
+.more{
+    width: 25px;
+    position: relative;
+    left: 300px;
+}
+.more>svg{
+    color: rgba(0, 0, 0, 0.781);
+    
+}
+.imageContainer>img{
+    width: 610px;
+    height: 600px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.header>div{
+    margin:15px;
+}
+.msg{
+    width: 585px;
+    margin-left: 2.5%;
+    color: rgba(0, 0, 0, 0.651);
+    border-top: 1px solid rgba(0, 0, 0, 0.171);
+    padding: 10px 0;
+}
+.userComments{
+    margin: 10px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.363);
+    margin-left: 2.5%;
+    width: 585px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.userComments>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 5px;
+}
+.userComments>div>i{
+    color: rgba(0, 0, 0, 0.692);
+}
+.userComments>div>i:hover{
+    color: black;
+}
+.userComments>div:hover{
+    cursor: pointer;
+    color: black;
+    background-color: lightgray;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.userComments>div>p{
+    padding-left: 5px;
+    color: rgba(0, 0, 0, 0.486);
+    font-weight: 600;
+    font-size: 14px;
+}
+@media screen and (max-width:1080px) {
+    .imageContainer>img{
+        width: 550px;
+    }
+    .msg{
+        width: 535px;
+        margin-left: 2.5%;
+        color: rgba(0, 0, 0, 0.651);
+        border-top: 1px solid rgba(0, 0, 0, 0.171);
+        padding: 10px 0;
+    }
+    .userComments{
+        width: 535px;
+    }
+}
+
+@media screen and (max-width:980px){
+    .imageContainer>img{
+        width: 550px;
+        height: 500px;
+    }
+    .msg{
+        width: 505px;
+        margin-left: 2.5%;
+        color: rgba(0, 0, 0, 0.651);
+        border-top: 1px solid rgba(0, 0, 0, 0.171);
+        padding: 10px 0;
+    }
+    .userComments{
+        width: 505px;
+    }
+}
+
+@media screen and (max-width:640px){
+    
+    .imageContainer>img{
+        width: 500px;
+        height: 500px;
+        margin-right: 5px;
+    }
+    .msg{
+        width: 450px;
+        margin-left: 3%;
+        color: rgba(0, 0, 0, 0.651);
+        border-top: 1px solid rgba(0, 0, 0, 0.171);
+        padding: 10px 0;
+    }
+    .userComments{
+        width: 450px;
+    }
+    .more{
+        width: 25px;
+        position: relative;
+        left: 250px;
+    }
+}
+@media screen and (max-width:515px){
+    .imageContainer>img{
+        width: 460px;
+        height: 500px;
+        margin-right: 5px;
+    }
+    .msg{
+        width: 400px;
+        margin-left: 3%;
+        color: rgba(0, 0, 0, 0.651);
+        border-top: 1px solid rgba(0, 0, 0, 0.171);
+        padding: 10px 0;
+    }
+    .userComments{
+        width: 400px;
+    }
+    .more{
+        width: 25px;
+        position: relative;
+        left: 200px;
+    }
+}
+@media screen and (max-width:480px){
+    .imageContainer>img{
+        width: 360px;
+        height: 380px;
+        margin-right: 5px;
+    }
+    .msg{
+        width: 360px;
+        margin-left: 3%;
+        color: rgba(0, 0, 0, 0.651);
+        border-top: 1px solid rgba(0, 0, 0, 0.171);
+        padding: 10px 0;
+    }
+    .userComments{
+        width: 350px;
+    }
+    .more{
+        width: 24px;
+        position: relative;
+        left: 120px;
+    }
+}
+@media screen and (max-width:360px){
+    .imageContainer>img{
+        width: 320px;
+        height: 320px;
+        margin-right: 5px;
+    }
+    .msg{
+        width: 330px;
+        margin-left: 3%;
+        color: rgba(0, 0, 0, 0.651);
+        border-top: 1px solid rgba(0, 0, 0, 0.171);
+        padding: 10px 0;
+    }
+    .userComments{
+        width: 310px;
+    }
+    .more{
+        width: 24px;
+        position: relative;
+        left: 80px;
+    }
+}
